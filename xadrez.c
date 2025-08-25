@@ -6,6 +6,9 @@
     .Bispo: Move-se na diagonal. Seu programa deverá simular o movimento do Bispo cinco casas na diagonal para cima e à direita. Para representar a diagonal, 
       você imprimirá a combinação de duas direções a cada casa (ex: "Cima, Direita").
     .Rainha: Move-se em todas as direções. Seu programa deverá simular o movimento da Rainha oito casas para a esquerda.
+
+  Informações do desafio Aventureiro:
+    .Cavalo: Move-se em L, utilizando loop aninhado mova o cavalo 2 casas para baixo e 1 para esquerda.
 */
 
 int torre();
@@ -71,10 +74,10 @@ int cavalo() {
 
   for (i = 1; i <= 1;  i++) {
     for (j = 1; j <= 2; j++){
-      printf("-Cima\n");
+      printf("-Baixo\n");
     }
     
-    printf("-Direita\n");
+    printf("-Esquerda\n");
   }
   return 0;
 }
