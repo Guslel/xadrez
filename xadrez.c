@@ -11,12 +11,14 @@
 int torre();
 int bispo();
 int rainha();
+int cavalo();
 
 int main() {
   printf("### Movimentação de peças de xadrez ###\n");
   torre();
   bispo();
   rainha();
+  cavalo();
 
   return 0;
 }
@@ -60,3 +62,19 @@ int rainha() {
   
   return 0;
 };
+
+int cavalo() {
+  int i, j;
+
+  printf("  \n");
+  printf("Movimento do Cavalo: \n");
+
+  for (i = 1; i <= 1;  i++) {
+    for (j = 1; j <= 2; j++){
+      printf("-Cima\n");
+    }
+    
+    printf("-Direita\n");
+  }
+  return 0;
+}
